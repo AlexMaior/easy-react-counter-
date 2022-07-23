@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.container div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.container div span {
+  font-size: 50px;
+}
+
+.container div > * {
+  margin: 0 20px;
+}
+
+.counterpos {
+  font-size: 30px;
+  color: green;
+}
+
+.counterneg {
+  font-size: 30px;
+  color: red;
+}
+
+.counterdefault {
+  font-size: 30px;
+  color: black;
+}
